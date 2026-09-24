@@ -1,0 +1,38 @@
+﻿{
+  "Browser": "chrome",
+  "BaseUrl": "https://demoqa.com/",
+  "Timeout": 10,
+  "Maximize": true,
+  "DefaultPollingIntervalMs": 50,
+  "MovementPollingIntervalMs": 50,
+  "DownloadDirectory": "Downloads",
+  "Browsers": {
+    "firefox": {
+      "Incognito": true,
+      "Arguments": [
+        "--lang=en"
+      ],
+      "Preferences": {
+        "intl.accept_languages": "en",
+        "browser.download.useDownloadDir": true,
+        "browser.download.folderList": 2,
+        "browser.download.manager.showWhenStarting": false,
+        "browser.helperApps.neverAsk.saveToDisk": "*/*",
+        "browser.download.alwaysOpenPanel": false,
+        "browser.download.improvements_to_download_panel": false
+      }
+    },
+    "chrome": {
+      "Incognito": true,
+      "Arguments": [
+        "--lang=en",
+        "--disable-features=DownloadBubble,DownloadBubbleV2"
+      ],
+      "Preferences": {
+        "intl.accept_languages": "en",
+        "download.prompt_for_download": false
+      },
+      "DownloadBehavior": "allow"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+﻿{
+  "Alerts": {
+    "CategoryPage": "Alerts, Frame & Windows",
+    "Category": "Alerts",
+    "AlertText": "You clicked a button",
+    "ConfirmText": "Do you confirm action?",
+    "ConfirmResult": "You selected Ok",
+    "PromptText": "Please enter your name"
+  },
+  "Frames": {
+    "CategoryPage": "Alerts, Frame & Windows",
+    "Category": "Nested Frames",
+    "NextCategory": "Frames",
+    "ParentFrameText": "Parent frame",
+    "ChildFrameText": "Child Iframe"
+  },
+  "Tables": [
+    {
+      "CategoryPage": "Elements",
+      "Category": "Web Tables",
+      "User": {
+        "FirstName": "Jon",
+        "LastName": "Snow",
+        "Email": "knownothing@gmail.com",
+        "Age": 30,
+        "Salary": 3000,
+        "Department": "alpha"
+      }
+    },
+    {
+      "CategoryPage": "Elements",
+      "Category": "Web Tables",
+      "User": {
+        "FirstName": "Buttercup",
+        "LastName": "Cumbersnatch",
+        "Email": "BudapestCandygram@mail.ru",
+        "Age": 41,
+        "Salary": 2000,
+        "Department": "beta"
+      }
+    }
+  ],
+  "Handles": {
+    "CategoryPage": "Alerts, Frame & Windows",
+    "Category": "Browser Windows",
+    "NextCategoryList": "Elements",
+    "NextCategory": "Links"
+  },
+  "SliderProgressBar": {
+    "CategoryPage": "Widgets",
+    "Category": "Slider",
+    "NextCategory": "Progress Bar",
+    "AgeEngineer": 20,
+    "ProgressBarErrorPercent": 2
+  },
+  "DatePicker": {
+    "CategoryPage": "Widgets",
+    "Category": "Date Picker",
+    "Day": 29,
+    "Month" : 2
+  },
+  "Files": {
+    "CategoryPage": "Elements",
+    "Category": "Upload and Download"
+  }
+}
